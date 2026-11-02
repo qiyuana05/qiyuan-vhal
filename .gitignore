@@ -1,0 +1,40 @@
+# 构建产物
+build/
+out/
+*.class
+*.jar
+*.apk
+*.aab
+*.dex
+*.so
+
+# 数据与日志（不应入库）
+*.csv
+*.log
+*.raw.log
+dumpsys*.txt
+logcat*.txt
+vhal*.txt
+
+# 密钥与证书
+*.key
+*.p12
+*.jks
+*.keystore
+*.crt
+*.csr
+
+# 本地环境
+.env
+.env.*
+.idea/
+.vscode/
+.gradle/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 个人备份
+*.bak
+*backup*
